@@ -1,0 +1,125 @@
+*{
+  font-size: 1.25vw;
+}
+.im1{
+    background-image: url(./Img/madera.jpg);
+    font-size: 16px;
+}
+.margen{
+    margin: 1%;
+}
+.mmmm{
+  margin-top: 8%;
+}
+.contteiner{
+  width: 100%;
+  max-width: 1400px;
+}
+.stii{
+    background-color: black;
+}
+.sti{
+    background-color: rgb(201, 201, 139);
+}
+#tamaño{
+    width: 100%;
+}
+.textico{
+  color:#fff;
+  margin-top: 20%;
+  font-family: cursive;
+}
+.textico1{
+  color: #fff;
+  margin-top: 13%;
+  font-family: cursive;
+}
+ul{
+  list-style: none;
+}
+.nafta li ul{
+  position:absolute;
+  display: none;
+  min-width: 0.875em;
+}
+.hov{
+  padding-left: 3.125em;
+}
+.nafta li:hover > ul{
+  display: block;
+}
+#corte{
+    filter:brightness(1.1);
+    mix-blend-mode: multiply;
+}
+.img2{
+  width: 100%;
+  height: 100%;
+}
+.card-img-overlay:hover{
+  --opacidad-negro: 0.75;
+  background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro)));
+} 
+.whisky{
+  background-image: url(./Img/telon-fondo-textura-muro-hormigon-solido.jpg);  
+}
+.cocteles{
+  background-image: url(./Img/pared-blanca-superficie-pared-piedra-tonos-grises.jpg);
+}
+.cerveza{
+  background-image: url(./Img/fondo-pared-ladrillo-textura-negro.jpg);
+}
+.vinos{
+  background-image: url(./Img/textura-pared-ladrillos_23-2148132440.jpg);
+}
+.margen2{
+  margin: 0% 3% 3% 3%;
+}
+.contenedor{
+    position: relative;
+}
+.posicion{
+    position:absolute !important;
+    top:85%;
+    left:65%;
+}
+p {
+  text-align:center;
+  color: #fdec6e;
+}
+.bb-title{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  right: 5%;
+  color: #fff;
+}
+
+.bb-title::before{
+  content:'';
+  position: absolute;
+  background-color: #7D18FD;
+  width: 84%;
+  height: 0.375em;
+  bottom: 0;
+  top: 100%;
+}
+@media (max-width: 575.98px) {
+  .img-fluid{
+    width: 10%;
+  }
+}
+/*@media (max-width: 767.98px) { 
+  .img-fluid{
+    width:40%;
+  }
+}
+
+@media (max-width: 991.98px) { ... }
+
+@media (max-width: 1199.98px) { 
+  body{
+    font-size: 14px;
+  }
+ }
+*/
